@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import time
-output='.\maths\doc'
+output='.\path_of-your_choice\'
 site="https://ronan.lauvergnat.fr/Enseignements_actuels_RL.html"
 ht=requests.get(site)
 soup=BeautifulSoup(ht.text, 'html.parser')
